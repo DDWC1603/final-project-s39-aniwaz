@@ -198,6 +198,7 @@ main(void)
         cuis.local("[ L O C A L  M A L A Y S I A N ]");
     }
     }
+    else if(lapar=='N'||lapar=='n'){system("cls");cout << endl << endl <<"So you did not feel hungry ah?!?! REALLY??? OKAY THEN BYEEEEEE :)))"<<endl<<endl;}
     else{return 0;}
 
 }

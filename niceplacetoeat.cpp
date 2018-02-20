@@ -40,6 +40,7 @@ public:
     {
       cout << setw(8) << right << a+1 <<". " << japan[a] <<endl;
     }
+    cin >>menu;
   switch (menu) {
     case 1: cout << "You want to eat " << japan[0] << " huh?" << endl << "Okay! The price range will be RM 18-25 so bring your money!" << endl<< "---------------------------------"<<endl<<"The nearest restaurant is SUSHI KING. "<<endl<<endl; break;
     case 2: cout << "You want to eat " << japan[1] << " huh?" << endl << "Okay! The price range will be RM 18-25 so bring your money!" << endl<< "---------------------------------"<<endl<<"The nearest restaurant is SUSHI KING. "<<endl<<endl; break;
